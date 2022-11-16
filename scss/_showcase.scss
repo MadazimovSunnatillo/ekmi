@@ -1,0 +1,33 @@
+section#showcase {
+    padding-top: 25px;
+
+    .flex {
+        align-items: center;
+        justify-content: space-evenly;
+        padding-bottom: 80px;
+        .hero__title {
+            font-weight: 700;
+            font-size: 30px;
+            line-height: 127.5%;
+            letter-spacing: 0.05em;
+            padding-bottom: 30px;
+        }
+
+        .hero__title-bottom {
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 150%;
+            letter-spacing: 0.07em;
+            padding-bottom: 15px;
+        }
+
+        .hero__description {
+            font-weight: 300;
+            font-size: 18px;
+            line-height: 150%;
+            letter-spacing: 0.07em;
+            color: grey;
+            max-width: 562px;
+        }
+    }
+}

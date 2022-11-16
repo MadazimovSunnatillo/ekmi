@@ -1,0 +1,261 @@
+@media (max-width: 1200px) {
+    .container {
+        max-width: 1025px;
+    }
+
+    header {
+        .flex {
+            gap: 40px;
+            justify-content: center;
+        }
+    }
+}
+
+
+@media (max-width: 1024px) {
+    .container {
+        max-width: 769px;
+    }
+
+    section#footer {
+        .flex {
+            flex-direction: column;
+        }
+    }
+
+    section#form {
+        display: none;
+    }
+
+    .project {
+        .grid {
+            padding-top: 1rem;
+            grid-template-columns: repeat(2, 1fr);
+            justify-items: center;
+        }
+    }
+
+    section#model {
+        h3 {
+            text-align: center;
+        }
+
+        .grid {
+            grid-template-columns: repeat(2, 1fr);
+            justify-items: center;
+
+            a {
+                display: none;
+            }
+        }
+
+        .model__button {
+            min-width: 218px;
+        }
+    }
+
+    section#comfort {
+        .flex {
+            flex-direction: column-reverse;
+
+            .comfort__info {
+                flex-direction: column;
+
+                .comfort__fact {
+                    padding-top: 55px;
+                }
+
+                .comfort__desc {
+                    padding-bottom: 99px;
+                }
+            }
+        }
+    }
+
+    section#showcase {
+        padding-top: 4rem;
+
+        .showcase-2 {
+            display: none;
+        }
+
+        .flex {
+            flex-direction: column;
+            justify-content: center;
+            justify-items: center;
+
+            .hero__title {
+                text-align: center;
+            }
+
+            .hero__title-bottom {
+                text-align: center;
+            }
+
+            .hero__description {
+                text-align: center;
+            }
+        }
+    }
+
+    header {
+        .flex {
+            align-items: center;
+            justify-content: center;
+
+            .tell {
+                display: block;
+            }
+
+            .nav__dropdown {
+                display: block;
+            }
+        }
+
+        nav {
+            .nav__item {
+                gap: 1rem;
+            }
+
+            .flex {
+                align-items: center;
+            }
+
+            .nav__link {
+                display: none;
+            }
+
+            .nav__tel {
+                display: inline-block;
+            }
+        }
+    }
+}
+
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 481px;
+    }
+
+    .partners {
+        h3 {
+            text-align: center;
+        }
+
+        .grid {
+            grid-template-columns: repeat(2, 1fr);
+            justify-items: center;
+            gap: 2rem;
+        }
+    }
+
+    .project {
+        h3 {
+            display: none;
+        }
+
+        .grid {
+            padding-top: 1rem;
+            grid-template-columns: repeat(1, 1fr);
+            justify-items: center;
+
+            .project__image1 {
+                display: none;
+            }
+        }
+    }
+
+    section#model {
+        .grid {
+            justify-items: center;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .model__button {
+            margin-left: 30%;
+        }
+    }
+
+
+
+}
+
+
+@media (max-width: 480px) {
+    .container {
+        max-width: 320px;
+    }
+
+    .partners {
+        h3 {
+            text-align: center;
+            font-size: 30px;
+        }
+
+        .grid {
+            grid-template-columns: repeat(1, 1fr);
+            justify-items: center;
+            gap: 1rem;
+
+            .partner-1 {
+                display: none;
+            }
+        }
+    }
+
+    section#model {
+        .grid {
+            grid-template-columns: repeat(3, 1fr);
+            justify-items: center;
+            align-items: center;
+            justify-content: center;
+
+            .model__none {
+                display: none;
+            }
+
+            a {
+                display: block;
+            }
+        }
+
+        .model__button {
+            margin-left: 20%;
+        }
+    }
+
+    section#comfort {
+        background: #F2F3F5;
+        padding-top: 10px;
+        max-width: 100%;
+
+        h2 {
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 150%;
+            letter-spacing: 0.07em;
+        }
+
+        .comfort__info {
+            .comfort__title {
+                max-width: 294px;
+                padding-bottom: 10px;
+                font-size: 20px;
+            }
+
+            .comfort__desc {
+                padding-bottom: 10px;
+
+            }
+        }
+    }
+}
+
+
+@media (max-width:330px) {
+    .container {
+        max-width: 280px;
+    }
+}

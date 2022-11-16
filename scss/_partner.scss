@@ -1,0 +1,19 @@
+.partners {
+    h3 {
+        font-weight: 700;
+        font-size: 35px;
+        line-height: 150%;
+        letter-spacing: 0.07em;
+        padding-bottom: 80px;
+        span {
+            color: $yellow;
+        }
+    }
+    .grid {
+        grid-template-columns: repeat(4, 1fr);
+        align-items: center;
+        justify-content: space-around;
+        justify-items: center;
+        padding-bottom: 160px;
+    }
+}

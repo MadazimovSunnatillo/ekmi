@@ -1,0 +1,49 @@
+section#comfort {
+    margin-bottom: 160px;
+    .flex {
+        background: #F2F3F5;
+        align-items: center;
+    }
+
+    h2 {
+        font-weight: 700;
+        font-size: 35px;
+        line-height: 150%;
+        letter-spacing: 0.07em;
+        padding-bottom: 60px;
+
+        span {
+            color: $yellow;
+        }
+
+    }
+
+    .comfort__info {
+        flex-direction: column;
+        margin: 0 auto;
+        align-items: start;
+
+        .comfort__fact {
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 19px;
+            color: $yellow;
+            padding-bottom: 20px;
+        }
+
+        .comfort__title {
+            font-weight: 500;
+            font-size: 35px;
+            line-height: 150%;
+            letter-spacing: 0.07em;
+            padding-bottom: 30px;
+        }
+
+        .comfort__desc {
+            font-weight: 300;
+            font-size: 18px;
+            line-height: 150%;
+            letter-spacing: 0.07em;
+        }
+    }
+}

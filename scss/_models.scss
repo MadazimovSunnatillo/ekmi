@@ -1,0 +1,37 @@
+section#model {
+    h3 {
+        font-weight: 700;
+        font-size: 35px;
+        line-height: 150%;
+        letter-spacing: 0.07em;
+        padding-bottom: 110px;
+
+        .yellow-1 {
+            font-size: 25px;
+            color: $yellow;
+
+        }
+
+        .yellow-2 {
+            color: $yellow;
+        }
+    }
+
+    .grid {
+        align-items: center;
+        justify-items: center;
+        grid-template-columns: repeat(6, 1fr);
+        gap: 4px;
+
+        img {
+            max-width: 270px;
+        }
+    }
+
+    .model__button {
+        @extend %button;
+        margin: 0 40%;
+        margin-top: 100px;
+        margin-bottom: 160px;
+    }
+}
